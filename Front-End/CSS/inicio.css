@@ -3,6 +3,10 @@
     src: url('../Fonts/Nordic.ttf');
 }
 
+body{
+    background-color: rgb(255, 255, 255);
+}
+
 .navbar{
     font-family: Nordic;
     display: flex;
@@ -21,18 +25,33 @@
     
 }
 
+a{
+    text-decoration: none;
+    color: rgb(197, 207, 55);
+}
+
 .marca{
     font-size: medium;
     display: flex;
     justify-content: space-around;
     border-style: double;
-    border-top: 0cap;
 }
 
 .cadastro{
+    width: 100%;
     display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    border-style: double;
+    border-top: 0cap;
+
 }
 
 .inicio{
+    width: 100%;
     display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    border-style: double;
+    border-top: 0cap;
 }
