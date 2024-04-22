@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="js/login.js" defer></script>
+    <title>New Games</title>
+</head>
+<body>
+    
+<nav class="navbar navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">New Games</a>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="login.html">Login</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div id="espacoLogin" class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="card-title text-center" id="login">Login</h2>
+                    <div class="text-danger mb-3">
+                        <span id="aviso"></span>
+                    </div>
+                    <form id="formLogin">
+                        <div class="form-group">
+                            <label for="usuario" id="labelUsuario">Usuário</label>
+                            <input type="text" class="form-control" id="usuario" name="usuario">
+                        </div>
+                        <div class="form-group">
+                            <label for="senha">Senha</label>
+                            <input type="password" class="form-control" id="senha" name="senha">
+                        </div>
+                        <button type="button" class="btn btn-primary btn-block" onclick="verificaLogin()">Logar 🔑</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
