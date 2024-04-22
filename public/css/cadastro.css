@@ -1,0 +1,17 @@
+#formGame{
+    width: 100%;
+    display: flex;
+}
+
+#areaForm{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.opcaoForm{
+    width: 100%;
+    display: flex;
+}
