@@ -1,0 +1,37 @@
+.valoresCadastrados{
+    font-size: large;
+}
+
+#botoes{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#botaoExcluir{
+    font-size: large;
+    background-color: white;
+    border-radius: 10px;
+    border-color:  rgb(255, 3, 3);
+    color:  rgb(255, 3, 3);
+}
+
+#botaoEditar{
+    font-size: large;
+    background-color: white;
+    border-radius: 10px;
+    border-color:  rgb(0, 112, 204);
+    color:  rgb(0, 112, 204);
+}
+
+#botaoEditar:hover{
+    color: white;
+    background-color: rgb(0, 112, 204);
+    cursor: pointer;
+}
+
+#botaoExcluir:hover{
+    color: white;
+    background-color: rgb(255, 3, 3);
+    cursor: pointer;
+}
